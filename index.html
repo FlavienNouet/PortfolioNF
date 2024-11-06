@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+        <link rel="stylesheet" href="assets/css/style.css"/>
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+
+        <input type="radio" name="color" id="color-1"/>
+        <input type="radio" name="color" id="color-2"/>
+        <input type="radio" name="color" id="color-3"/>
+        <input type="radio" name="color" id="color-4"/>
+        <input type="radio" name="color" id="color-5"/>
+        <input type="radio" name="color" id="color-6"/>
+        <input type="radio" name="color" id="color-7"/>
+        <input type="radio" name="color" id="color-8"/>
+        <input type="radio" name="color" id="color-9"/>
+        <input type="radio" name="color" id="color-10"/>
+        <input type="checkbox" id="toggler">
+        <input type="checkbox" id="day-night">
+
+        <div class="style__switcher">
+            <label for="toggler" class="style__switcher-toggler">
+                <i class="fa-solid fa-gear fa-spin"></i>
+            </label>
+
+            <label for="day-night" class="style__switcher-theme">
+                <i class="fa-solid fa-sun"></i>
+                <i class="fa-solid fa-moon"></i>
+            </label>
+
+            <h3 class="style__switcher-title">Theme Colors</h3> 
+            
+            <div class="style__switcher-colors">
+                <label for="color-1" class="color-1 color"></label>
+                <label for="color-2" class="color-2 color"></label>
+                <label for="color-3" class="color-3 color"></label>
+                <label for="color-4" class="color-4 color"></label>
+                <label for="color-5" class="color-5 color"></label>
+                <label for="color-6" class="color-6 color"></label>
+                <label for="color-7" class="color-7 color"></label>
+                <label for="color-8" class="color-8 color"></label>
+                <label for="color-9" class="color-9 color"></label>
+                <label for="color-10" class="color-10 color"></label>
+            </div>
+        </div>
+
+        <header class="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">NOUET Flavien</a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Accueil</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">A Propos</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">Projet</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#works" class="nav__link">Veille techno</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content">
+                        <span class="home__small">Bonjour,</span>
+                        <h1 class="home__title"><span>Je suis</span> Flavien <br />
+                             un <span>Etudiant Développeur</span>
+                        </h1>
+
+                        <p class="home__description">
+                        Je suis actuellement étudiant en première année de BTS SIO (Service Informatique aux Organisations) Option SLAM ( Solutions Logicielles et Applications Métiers) donc spécialisé pour le développement.
+                        <br>
+                        <br>
+                        J'ai déjà acquis des connaissances solides en développement front-end et back-end, ainsi que sur d'autres outils tels que Git, Visual Studio Code, PHP My Admin, ...
+                        </p>
+
+                        <div class="home__btns">
+                           <a href="#contact" class="btn">Contactez moi</a>
+                           <a href="#works" class="btn btn--transparent">Veille techno</a> 
+                        </div>
+                    </div>
+
+                    <div class="home__img-wrapper">
+                        <img src="///" alt="" class="home__img"/>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="about section" id="about">
+    <div class="about__container container grid">
+        <div class="about__img-wrapper">
+            <img src="assets/img/pdp.jpg" alt="" class="about__img">
+            <img src="assets/img/pdp.jpg" alt="" class="about__img">
+            <img src="assets/img/pdp.jpg" alt="" class="about__img">
+            <img src="assets/img/pdp.jpg" alt="" class="about__img">
+        </div>
+
+        <div class="about__content">
+            <h2 class="section__title" data-title="Qui suis-je ?">
+                Je suis NOUET Flavien, un étudiant développeur et web-développeur
+            </h2>
+
+            <h3>Ma filière :</h3>
+            <p class="about__description">
+                Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations (BTS SIO), est destiné à ceux qui souhaitent se former en deux ans aux métiers d'administrateur réseau ou de développeur (ce que j'ai choisi). Pour par la suite intégrer directement le marché du travail ou continuer des études jusqu'au bachelor et/ou master, dans le domaine de l'informatique.
+            </p>
+            <br>
+            <br>
+
+            <ul class="about__data grid">
+                <li class="data__item">
+                    <h3 class="data__title">Nom:</h3>
+                    <span class="data__description">NOUET Flavien</span>
+                </li>
+
+                <li class="data__item">
+                    <h3 class="data__title">Age:</h3>
+                    <span class="data__description">19</span>
+                </li>
+
+                <li class="data__item">
+                    <h3 class="data__title">From:</h3>
+                    <span class="data__description">Paris, FR</span>
+                </li>
+
+                <li class="data__item">
+                    <h3 class="data__title">Mail:</h3>
+                    <span class="data__description about__link">flavien-nouet@outlook.fr</span>
+                </li>
+            </ul>
+
+            <div class="about__bottom">
+                <a href="https://www.linkedin.com/in/flavien-nouet/" class="btn">Mon Linkedin</a>
+                <!-- Lien pour télécharger le CV -->
+                <a href="assets/CV.pdf" download="CV_NOUET_Flavien.pdf" class="btn">Télécharger CV</a>
+            
+                <!-- Icône de l'œil pour afficher le PDF -->
+                <i class="fa-solid fa-eye fa-bounce" id="toggle-cv"></i>
+            </div>
+        </div>
+
+        <!-- Conteneur pour afficher le PDF (initialement caché) -->
+        <div id="pdf-container" class="pdf-container">
+            <embed id="pdf-file" src="assets/CV.pdf" type="application/pdf">
+        </div>
+    </div>
+</section>
+<script>
+    document.getElementById('toggle-cv').addEventListener('click', function() {
+    var pdfContainer = document.getElementById('pdf-container');
+    var aboutContent = document.querySelector('.about__content');
+    
+    if (pdfContainer.classList.contains('show')) {
+        pdfContainer.classList.remove('show'); // Cache le PDF
+        aboutContent.style.marginRight = '0'; // Ramène le contenu à sa position originale
+    } else {
+        pdfContainer.classList.add('show'); // Affiche le PDF
+        aboutContent.style.marginRight = '30%'; // Pousse le contenu vers la gauche (30% au lieu de 50%)
+    }
+});
+</script>
+
+
+
+
+            <section class="qualification section" id="experience">
+  <h2 class="section__title title-center" data-title="Mes Parcours">Qualification</h2>
+
+  <div class="resume__container container grid">
+    <!-- Parcours pro -->
+    <div class="resume__group">
+      <h3 class="resume__heading">Parcours pro</h3>
+
+      <div class="resume__item">
+        <div class="resume__header">
+          <h3 class="resume__subtitle">Stage 2e année</h3>
+          <span class="resume__icon">+</span>
+        </div>
+        <div class="resume__content">
+          <div class="resume__date-title">
+            <h3 class="resume__title">Dev full-stack</h3>
+            <span class="resume__date">2024 - 2025</span>
+          </div>
+          <p class="resume__description">Stage dans une société d'e-commerce B2B, nommée Intershop qui est une entreprise internationale.</p>
+        </div>
+      </div>
+
+      <!-- Stage 1ere année -->
+      <div class="resume__item">
+        <div class="resume__header">
+          <h3 class="resume__subtitle">Stage 1ere année</h3>
+          <span class="resume__icon">+</span>
+        </div>
+        <div class="resume__content">
+          <div class="resume__date-title">
+            <h3 class="resume__title">Dev front-end</h3>
+            <span class="resume__date">2024</span>
+          </div>
+          <p class="resume__description">Stage dans une société d'e-commerce B2B, nommée Intershop qui est une entreprise internationale.</p>
+        </div>
+      </div>
+      <!-- Fin du stage 1ere année -->
+      <div class="resume__item">
+        <div class="resume__header">
+          <h3 class="resume__subtitle">CDD Ete</h3>
+          <span class="resume__icon">+</span>
+        </div>
+        <div class="resume__content">
+          <div class="resume__date-title">
+            <h3 class="resume__title">Assisstant web-marketing</h3>
+            <span class="resume__date">2023</span>
+          </div>
+          <p class="resume__description"> Travail de 5 mois durant l'été 2023 comme assisstant web-marketing.Grace à ce job, j'ai pu aller dans les locaux de Google et Meta.</p>
+        </div>
+      </div>
+      <!-- Ajoutez d'autres éléments ici pour Parcours pro si nécessaire -->
+      <div class="resume__item">
+        <div class="resume__header">
+          <h3 class="resume__subtitle">Stage 3e</h3>
+          <span class="resume__icon">+</span>
+        </div>
+        <div class="resume__content">
+          <div class="resume__date-title">
+            <h3 class="resume__title">Stage d'observation / de decouverte</h3>
+            <span class="resume__date">2023</span>
+          </div>
+          <p class="resume__description">Stage d'observation dans une entreprise d'emballage, nommée Raja qui est une entreprise internationale avec 4500 employés .</p>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Parcours pro -->
+
+    <!-- Parcours perso -->
+    <div class="resume__group">
+      <h3 class="resume__heading">Parcours perso</h3>
+
+      <!-- BTS SIO Option SLAM -->
+      <div class="resume__item">
+        <div class="resume__header">
+          <h3 class="resume__subtitle">BTS SIO Option SLAM</h3>
+          <span class="resume__icon">+</span>
+        </div>
+        <div class="resume__content">
+          <div class="resume__date-title">
+            <h3 class="resume__title">Etudiant</h3>
+            <span class="resume__date">2023/2025</span>
+          </div>
+          <p class="resume__description">Etudiant au sein de l'IPSSI MLV afin d'étudier le métier de développeur et de gagner en compétences.</p>
+        </div>
+      </div>
+
+      <div class="resume__item">
+        <div class="resume__header">
+          <h3 class="resume__subtitle">CDD Ete Auchan</h3>
+          <span class="resume__icon">+</span>
+        </div>
+        <div class="resume__content">
+          <div class="resume__date-title">
+            <h3 class="resume__title">Job Etudiant</h3>
+            <span class="resume__date">Ete 2024</span>
+          </div>
+          <p class="resume__description">Job Etudiant en tant ue charcutier, fromager, traiteur durant 2 mois au sein de Auchan Val d'Europe</p>
+        </div>
+      </div>
+
+      <!-- Bac General -->
+      <div class="resume__item">
+        <div class="resume__header">
+          <h3 class="resume__subtitle">Bac Général</h3>
+          <span class="resume__icon">+</span>
+        </div>
+        <div class="resume__content">
+          <div class="resume__date-title">
+            <h3 class="resume__title">Etudiant</h3>
+            <span class="resume__date">2020/2023</span>
+          </div>
+          <p class="resume__description">Obtention d'un bac général avec mention assez bien avec la spécialité HGGSP et LLCE.</p>
+        </div>
+      </div>
+
+      <!-- Brevet des Collèges -->
+      <div class="resume__item">
+        <div class="resume__header">
+          <h3 class="resume__subtitle">Brevet des Collèges</h3>
+          <span class="resume__icon">+</span>
+        </div>
+        <div class="resume__content">
+          <div class="resume__date-title">
+            <h3 class="resume__title">Etudiant</h3>
+            <span class="resume__date">2020</span>
+          </div>
+          <p class="resume__description">Obtention du brevet des collèges avec la mention Très Bien.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Parcours perso -->
+  </div>
+</section>
+            <script>
+                const toggles = document.querySelectorAll('.resume__icon');
+
+toggles.forEach(toggle => {
+    toggle.addEventListener('click', function() {
+        const resumeItem = this.parentElement.parentElement;
+        resumeItem.classList.toggle('active');
+    });
+});
+            </script>
+
+
+
+
+<section class="services section" id="qualification">
+    <h2 class="section__title title-center" data-title="Mes projets">
+        Ce que j'ai fait
+    </h2>
+
+    <div class="services__container container grid">
+        <div class="services__item">
+            <i class="fa-solid fa-skull fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/biblio.mp4">The Spooklibrary</a>
+            </h3>
+            <p class="services__description">Premier projet, création d'une bibliothèque sur le thème de l'horreur</p>
+            <span class="services__no">01</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-earth-americas fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/SS.mp4">Un petit pas pour le code</a>
+            </h3>
+            <p class="services__description">Création d'une calculatrice sur les planètes du système solaire</p>
+            <span class="services__no">02</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-book fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/biblio2.mp4">Biblio-v2</a>
+            </h3>
+            <p class="services__description">Création d'une seconde bibliothèque selon la demande d'un client</p>
+            <span class="services__no">03</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-file-invoice fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/Js.mp4">Projet Pro JS</a>
+            </h3>
+            <p class="services__description">En duo, nous avons mis en place un système de facturation automatique en JavaScript.</p>
+            <span class="services__no">04</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-wind fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/respire.mp4">Projet RespireStat</a>
+            </h3>
+            <p class="services__description">L'objectif est de collecter des données sur la pollution aérienne et concevoir une application pour visualiser ces données</p>
+            <span class="services__no">05</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-shirt fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/Stage.mp4">Projet Stage</a>
+            </h3>
+            <p class="services__description">Création d'un configurateur web lors de mon stage chez Intershop</p>
+            <span class="services__no">06</span>
+        </div>
+    </div>
+
+    <div class="services__buttons">
+        <button class="btn" id="btn-new"><i class="fa-solid fa-arrow-right fa-beat-fade"></i></button>
+    </div>
+</section>
+
+<section class="services section" id="new-projects" style="display: none;">
+    <h2 class="section__title title-center" data-title="Nouveaux Projets">
+        Mes nouveaux projets
+    </h2>
+    <div class="services__container container grid">
+        <div class="services__item">
+            <i class="fa-solid fa-code fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="assets/Tableau.pdf">Fiche E4</a>
+            </h3>
+            <p class="services__description">Premier projet, création d'une bibliothèque sur le thème de l'horreur</p>
+            <span class="services__no">07</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-code fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/newproject2.mp4">Nouveau Projet 2</a>
+            </h3>
+            <p class="services__description">Description du nouveau projet 2</p>
+            <span class="services__no">08</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-code fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/newproject2.mp4">Nouveau Projet 2</a>
+            </h3>
+            <p class="services__description">Description du nouveau projet 2</p>
+            <span class="services__no">09</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-code fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/newproject2.mp4">Nouveau Projet 2</a>
+            </h3>
+            <p class="services__description">Description du nouveau projet 2</p>
+            <span class="services__no">10</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-code fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/newproject2.mp4">Nouveau Projet 2</a>
+            </h3>
+            <p class="services__description">Description du nouveau projet 2</p>
+            <span class="services__no">11</span>
+        </div>
+
+        <div class="services__item">
+            <i class="fa-solid fa-code fa-bounce"></i>
+            <h3 class="services__title">
+                <a href="Videos/newproject2.mp4">Nouveau Projet 2</a>
+            </h3>
+            <p class="services__description">Description du nouveau projet 2</p>
+            <span class="services__no">12</span>
+        </div>
+    </div>
+    <div class="services__buttons">
+        <button class="btn" id="btn-existing"><i class="fa-solid fa-arrow-left fa-beat-fade"></i></button>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const existingProjects = document.querySelector('#qualification');
+        const newProjects = document.querySelector('#new-projects');
+        const btnNew = document.querySelector('#btn-new');
+        const btnExisting = document.querySelector('#btn-existing');
+
+        function showExistingProjects() {
+            existingProjects.style.display = 'grid';
+            newProjects.style.display = 'none';
+        }
+
+        function showNewProjects() {
+            existingProjects.style.display = 'none';
+            newProjects.style.display = 'grid';
+        }
+
+        btnNew.addEventListener('click', function(event) {
+            event.preventDefault();
+            showNewProjects();
+        });
+
+        btnExisting.addEventListener('click', function(event) {
+            event.preventDefault();
+            showExistingProjects();
+        });
+    });
+</script>
+
+
+<section class="skills section" id="skills">
+    <h2 class="section__title title-center" data-title="Mes compétences">
+        Compétences professionnels
+    </h2>
+    
+    <div class="skills__wrapper">
+        <div class="skills__container container grid">
+            <!-- Compétences originales -->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__no">85%</span>
+                </div>
+                <p class="skills__description">Hypertext Markup Language</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 85%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__no">75%</span>
+                </div>
+                <p class="skills__description">Feuilles de style en cascade</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>      
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__no">90%</span>
+                </div>
+                <p class="skills__description">Hypertext Preprocessor</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 90%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>       
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__no">75%</span>
+                </div>
+                <p class="skills__description">Structured Query Language</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>     
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__no">70%</span>
+                </div>
+                <p class="skills__description">Création pages web interactives</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 70%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>  
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__no">80%</span>
+                </div>
+                <p class="skills__description">Langage orienté objet</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 80%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">VS code</h3>
+                    <span class="skills__no">75%</span>
+                </div>
+                <p class="skills__description">Plateforme de code</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">My SQL</h3>
+                    <span class="skills__no">65%</span>
+                </div>
+                <p class="skills__description">txt</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 65%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Linux</h3>
+                    <span class="skills__no">50%</span>
+                </div>
+                <p class="skills__description">txt</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 50%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Gitlab</h3>
+                    <span class="skills__no">70%</span>
+                </div>
+                <p class="skills__description">txt</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 70%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Duplicates for smooth animation -->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__no">85%</span>
+                </div>
+                <p class="skills__description">Hypertext Markup Language</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 85%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__no">75%</span>
+                </div>
+                <p class="skills__description">Feuilles de style en cascade</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>      
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__no">90%</span>
+                </div>
+                <p class="skills__description">Hypertext Preprocessor</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 90%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>       
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">SQL</h3>
+                    <span class="skills__no">75%</span>
+                </div>
+                <p class="skills__description">Structured Query Language</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>     
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__no">70%</span>
+                </div>
+                <p class="skills__description">Création pages web interactives</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 70%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>  
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                    <span class="skills__no">80%</span>
+                </div>
+                <p class="skills__description">Langage orienté objet</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 80%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">VS code</h3>
+                    <span class="skills__no">75%</span>
+                </div>
+                <p class="skills__description">Plateforme de code</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">My SQL</h3>
+                    <span class="skills__no">65%</span>
+                </div>
+                <p class="skills__description">txt</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 65%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Linux</h3>
+                    <span class="skills__no">50%</span>
+                </div>
+                <p class="skills__description">txt</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 50%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">Gitlab</h3>
+                    <span class="skills__no">70%</span>
+                </div>
+                <p class="skills__description">txt</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 70%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        
+
+
+
+            <section class="works section" id="works">
+            <h2 class="section__title title-center" data-title="Veille techno">
+                <a href="https://www.canva.com/design/DAGB0NtFsYQ/IWp5pI6k0a6DOvwexZIE7A/edit?utm_content=DAGB0NtFsYQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">La cybercriminalité, un nouvel effet de mode ?</a>
+            </h2>
+
+                <div class="work__container container grid">
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/cybercrime.jpg" alt="Project 1" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">Facilité d'accès aux cybercimes</h3>
+                            <br>
+                            <span class="work__description">
+                                Sur le net, grace à certains mots clés il est facile de se procurer des "tutos" afin de créer des malwares et devenir un cybercriminel.
+                            </span>
+                            <br>
+                            <a href="https://www.developpez.com/actu/85827/Comment-creer-votre-logiciel-malveillant-en-trois-etapes-Tox-permet-aux-cybercriminels-de-suivre-en-temps-reel-les-campagnes-de-piratage/">Développez.com</a>
+                        </div>
+                    </div>
+            
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/ia.jpg" alt="Project 2" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">Une aide fournit par les IA</h3>
+                            <br>
+                            <span class="work__description">
+                                Les IA utilisées à des fins malveillantes : 
+                                <li>ChatGPT</li>
+                                <li><a href="https://thecyberexpress.com/worm-gpt-new-black-hat-ai-tool-crimeware/">WormGPT</a></li>
+                                <li><a href="https://huggingface.co/">HuggingFace</a></li>
+                            </span>
+                            <br>
+                            <a href="https://www.usine-digitale.fr/article/des-modeles-d-intelligence-artificielle-malveillants-reperes-sur-la-plateforme-hugging-face.N2209211">L'usine digitale</a>
+                        </div>
+                    </div>
+            
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/cyberattaquant.jpg" alt="Project 3" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">Des attaquants de plus en plus jeunes !</h3>
+                            <br>
+                            <span class="work__description">
+                                <li>Attaque de France travail => attaquants de 20ans par du phishing</li>
+                                <li>Arion Kurtaj => 18 ans et a piraté Rockstar => fuite de données</li>
+                            </span>
+                            <br>
+                            <a href="https://www.leparisien.fr/futurs/gta-vi-le-hacker-a-lorigine-des-fuites-de-2022-condamne-a-une-hospitalisation-dune-duree-indeterminee-22-12-2023-F7LWJVTU25H7FJKDNQFRAV367A.php">Le Parisien</a>
+                        </div>
+                    </div>
+            
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/phishing.jpg" alt="Project 4" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">Présentation de mon attaque</h3>
+                            <br>
+                            <span class="work__description">
+                                Phishing / Hameconnage => Leurrer un user pour lui faire révéler ses données bancaires en se faisant passer pour un tiers de confiance.
+                            </span>
+                            <br>
+                            <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/phishing-hameconnage-soyez-vigilant-sur-les-informations-que-vous#:~:text=L'hame%C3%A7onnage%20(phishing%20en%20anglais,pour%20un%20tiers%20de%20confiance.">Economie.gouv</a>
+                        </div>
+                    </div>
+            
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/demo.png" alt="Project 5" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">Démonstration</h3>
+                            <br>
+                            <span class="work__description">
+                                <a href="Videos/zphisher.mp4">Vidéos de mon attaque</a>
+                            </span>
+                        </div>
+                    </div>
+            
+
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/protection.jpg" alt="Project 6" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">Comment s'en protéger</h3>
+                            <br>
+                            <span class="work__description">
+                                <li>Formation des employés</li>
+                                <li>Filtrer vos mails</li>
+                                <li>Vérifier le site en https</li>
+                            </span>
+                            <br>
+                            <a href="https://www.economie.gouv.fr/particuliers/phishing-hameconnage-filoutage">Economie.gouv</a>
+                        </div>
+                    </div>
+
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/zero_trust.webp" alt="Project 6" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">Le Zéro Trust</h3>
+                            <br>
+                            <span class="work__description">
+                                <li>Accorder le moins de privilèges</li>
+                                <li>N'ayez jamais confiance</li> 
+                                <li>Surveillez toujours</li>
+                            </span>
+                            <br>
+                            <a href="https://www.crowdstrike.com/en-us/cybersecurity-101/zero-trust-security/#:~:text=Zero%20Trust%20is%20a%20security,access%20to%20applications%20and%20data.">Crowd Strike</a>     
+                        </div>
+                    </div>
+
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/industrie.jpg" alt="Project 6" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">L'industrialisation des cyberattaques</h3>
+                            <br>
+                            <span class="work__description">
+                                Les cyberattaques suivent souvent le meme modèle (80% phishing, 40% brutforce,... )
+                                Néanmoins rarement de réels coupables malgrés les moyens mis en oeuvres
+                            </span>
+                            <br>
+                            <a href="https://www.solutions-numeriques.com/lindustrialisation-de-la-cybercriminalite-va-saccelerer-en-2024/">Solution Numérique</a>
+                        </div>
+                    </div>
+
+                    <div class="work__card">
+                        <img src="assets/img/Veille1/crainte.jpg" alt="Project 6" class="work__img">
+                        <div class="work__details">
+                            <h3 class="work__title">Une crainte immuable</h3>
+                            <br>
+                            <span class="work__description">
+                                <li>Suivre de formations en ligne</li>
+                                <li>Sensibiliser son entourage</li>
+                                <li>Mettre à jour ses appareils/ antivirus</li>
+                            </span>
+                            <br>
+                            <a href="https://www.info.gouv.fr/actualite/attention-aux-arnaques-en-ligne">Info.gouv</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__buttons">
+                    <button class="btn" id="btn-show-new"><i class="fa-solid fa-arrow-right fa-beat-fade"></i></button>
+                </div>
+            </section>
+
+
+            <section class="works section" id="works2">
+                <h2 class="section__title title-center" data-title="Veille techno">
+                    <a href="https://www.canva.com/design/DAGVmlKRz4I/4r9wmvqD-xWo09HgUkojwQ/edit?utm_content=DAGVmlKRz4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Le DarkWeb, entre fantasme et danger</a>
+                </h2>
+    
+                    <div class="work__container container grid">
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/websurface.jpg" alt="Project 1" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Le DarkWeb =/ Web Surface</h3>
+                                <br>
+                                <span class="work__description">
+                                    <li>Surface Web => Youtube</li>
+                                    <li>Deep Web => Doc Médicaux</li>
+                                    <li>Dark Web => Activité Illégale</li>
+                                </span>
+                                <br>
+                                <a href="https://www.dashlane.com/fr/blog/liceberg-du-dark-web-explique-en-des-termes-simples">Dashlane</a>
+                            </div>
+                        </div>
+                
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/darkweb.jfif" alt="Project 2" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Création du DarkWeb</h3>
+                                <br>
+                                <span class="work__description">
+                                    <li>Arpanet => transfert de paquets anonymes</li>
+                                    <li>TOR => navigation anonyme</li>
+                                    <li>Le Bitcoin => transaction de facon sécurisée</li>
+                                </span>
+                                <br>
+                                <a href="https://www.soscanhelp.com/blog/history-of-the-dark-web">SOS can help</a>
+                            </div>
+                        </div>
+                
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/darkweb_evo.jpg" alt="Project 3" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Son évolution / avenir</h3>
+                                <br>
+                                <span class="work__description">
+                                    <li>Hausse techno anonymat</li>
+                                    <li>Surveillance accrue</li>
+                                    <li>Dév de techno de cryptage</li>
+                                </span>
+                                <br>
+                                <a href="https://www.soscanhelp.com/blog/future-of-the-dark-web">SOS can Help</a>
+                            </div>
+                        </div>
+                
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/how.jpg" alt="Project 4" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Comment s'y rendre</h3>
+                                <br>
+                                <span class="work__description">
+                                   txt
+                                </span>
+                                <br>
+                                <a href="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/phishing-hameconnage-soyez-vigilant-sur-les-informations-que-vous#:~:text=L'hame%C3%A7onnage%20(phishing%20en%20anglais,pour%20un%20tiers%20de%20confiance.">Economie.gouv</a>
+                            </div>
+                        </div>
+                
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/demo.jpg" alt="Project 5" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Démonstration</h3>
+                                <br>
+                                <span class="work__description">
+                                    <a href="Videos/zphisher.mp4">Vidéos txt</a>
+                                </span>
+                            </div>
+                        </div>
+                
+    
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/contenu.webp" alt="Project 6" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Contenu disponible</h3>
+                                <br>
+                                <span class="work__description">
+                                    <li>Marché noire</li>
+                                    <li>Forums anonymes</li>
+                                    <li>Services liés à la protection des données</li>
+                                </span>
+                                <br>
+                                <a href="https://blog.avast.com/fr/modern-dark-web">Blog Avast</a>
+                            </div>
+                        </div>
+    
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/danger.webp" alt="Project 6" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Potentiel danger</h3>
+                                <br>
+                                <span class="work__description">
+                                    <li>Se faire voler ses données</li>
+                                    <li>Avoir a faire aux autorités en cas d'achat</li>
+                                    <li>Se faire pirater</li>
+                                </span>
+                                <br>
+                                <a href="https://www.keepersecurity.com/blog/fr/2023/07/13/is-the-dark-web-dangerous/#:~:text=Oui%2C%20le%20dark%20Web%20est,utiliser%20pour%20voler%20vos%20informations.">Keeper Security</a>     
+                            </div>
+                        </div>
+    
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/maxresdefault.jpg" alt="Project 6" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Témoignages</h3>
+                                <br>
+                                <span class="work__description">
+                                    <li>Je me suis fait pirater</li>
+                                    <li>J'ai vu des contenus choquants</li>
+                                    <li>Je me suis ouvert sur le monde</li>
+                                </span>
+                                <br>
+                                <a href="https://fr.quora.com/Avez-vous-d%C3%A9j%C3%A0-%C3%A9t%C3%A9-sur-le-dark-web-Quelle-a-%C3%A9t%C3%A9-votre-exp%C3%A9rience">Quora</a>
+                            </div>
+                        </div>
+    
+                        <div class="work__card">
+                            <img src="assets/img/Veille2/darknet-guide.webp" alt="Project 6" class="work__img">
+                            <div class="work__details">
+                                <h3 class="work__title">Comment s'en protéger</h3>
+                                <br>
+                                <span class="work__description">
+                                    <li>Protéger son anonymat (TOR et VPN)</li>
+                                    <li>Ne rien télécharger</li>
+                                    <li>Ne jamais faire de transactions</li>
+                                </span>
+                                <br>
+                                <a href="https://www.futura-sciences.com/tech/questions-reponses/cybersecurite-dark-web-savez-vous-vraiment-proteger-15171/">Futura Science</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__buttons">
+                        <button class="btn" id="btn-show-existing"><i class="fa-solid fa-arrow-left fa-beat-fade"></i></button>
+                    </div>
+                </section>
+
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+    const existingProjects = document.querySelector('#works');   // Section des projets existants
+    const newProjects = document.querySelector('#works2');      // Section des nouveaux projets
+    const btnShowNew = document.querySelector('#btn-show-new');  // Bouton pour afficher les nouveaux projets
+    const btnShowExisting = document.querySelector('#btn-show-existing'); // Bouton pour afficher les projets existants
+
+    // Fonction pour afficher la section des projets existants
+    function showExistingProjects() {
+        existingProjects.style.display = 'grid';
+        newProjects.style.display = 'none';
+    }
+
+    // Fonction pour afficher la section des nouveaux projets
+    function showNewProjects() {
+        existingProjects.style.display = 'none';
+        newProjects.style.display = 'grid';
+    }
+
+    // Initialiser l'affichage pour ne montrer que la section existante
+    showExistingProjects(); // Appel de la fonction pour afficher la section existante
+
+    // Événements pour les boutons
+    btnShowNew.addEventListener('click', function(event) {
+        event.preventDefault();
+        showNewProjects();
+    });
+
+    btnShowExisting.addEventListener('click', function(event) {
+        event.preventDefault();
+        showExistingProjects();
+    });
+});
+
+                </script>
+
+<section class="skills section" id="skills">
+    <div class="skills__wrapper">
+        <div class="skills__container container grid">
+            <!-- Compétences originales -->
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <span class="circle">
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/d/d9/ANSSI_Logo.svg" alt="ANSSI logo" />
+                    </span>
+                    <a href="https://cyber.gouv.fr/" target="_blank" class="skills__name">ANSSI</a>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <span class="circle">
+                        <img src="https://www.zataz.com/wp-content/uploads/ZATAZ.COM-CYBERINTELLIGENCE-CARRE.png" alt="ZATAZ logo" />
+                    </span>
+                    <a href="https://www.zataz.com/" target="_blank" class="skills__name">ZATAZ</a>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <span class="circle">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAABU1BMVEX/////yShChvb///7//f////3qQjX8///91zW3iyj7vQT//v3///v//f76///8//00qVMgpEdHrWTF5sr++fL++fbbRjndQjnuPi////jO4PhilPI+hPb9uwD/yCrtOSnmlY/jVUz66udBh+80fvTphX7oRDL2vgA/iO/j8v7nQzjmRTHuQDTrQDD///LxzcnvurPx+f+lxfS81vjncmuWufPW6vziZl7529X/+uP98Mr0xS1fkuvyqqPhXFSxzvV0oez51VzhsyzKnSbn9+dAgf5unOyYu/PL3fi50/apx/T78cH634H4yUL84Y/me3P76qnysqz646H2zk/0xb/gMB7skIn302n53In62NBzn+v/99j65Nv42nWFrvPi1Kjs3rS0jS3JrGLtHxDdKg7WTULTWE7ov7LDoEfgzpG+kiP//cL76IbPs2TbrCn/3kz63V/BqEv0AAAYTElEQVR4nO1d/18aV7o+Mmc4TeZ82XsXdEYxAwOCDAyiIqCgie3V2JgEjWCaatx2297u9vb27v//033fM4CAJE12V+Tz6Tw2xgwjM/PMe573ed9zhhISIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQIUKECBEiRIgQ4SEgBH439LcQD3s+Dw6Dc5MwhsQIIRXAMM1ZnoBlGYoJwmZ5zN+BADJMhxtkc3NTwr+BInPG54dxyuaJE4yTzZOtm/YKoH3z/KQouTPLExDhaVizPOYHYeAQMYg8ucnGUkPkss++liguhilmchb/9WeNmd6HD8CACKGmI5+2U7nYGHKp9gvJieKEz+JE/vwff4Kv/1SzONbvgHNqEXO5nTtKjVMCMRNLrSw7RMmZ3DvgBDAXnIDgO/I5DJXseiw3yUksFXsuHUpncRrzxIngxeNULBvL5lKoJzktJjmIkZiWl9zNJpezOI954UQYQMlmO4yPLPDRfv71Sb1+8vXz4xhETkqPn5PZyN6ccALqSnmx3ReS3PrzOmQaA4wJN1hxK3uUjcXWc9sG/UPpiSGoPAYtQfXI7WwSYXJFTEjAyiTG5haStU0cOqu8MxeckArZSeXWQTtS68sGl4aptJ+nxIIgIvWV3Ak3ZxMm88KJocyTfq5p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" alt="Google Alerts logo" />
+                    </span>
+                    <a href="https://www.google.com/alerts#" target="_blank" class="skills__name">Google Alerts</a>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <span class="circle">
+                        <img src="https://yt3.googleusercontent.com/ytc/AIdro_kcjJeAYdGC6vdnUDq5k9Tv_1_xv9ztesDxhMeCjZpWNJw=s900-c-k-c0x00ffffff-no-rj" alt="Tom's Guide logo" />
+                    </span>
+                    <a href="https://www.tomsguide.com/" target="_blank" class="skills__name">Tom's Guide</a>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <span class="circle">
+                        <img src="https://media.licdn.com/dms/image/v2/C4E0BAQGWLnfvS-7sFQ/company-logo_200_200/company-logo_200_200/0/1669743878976/thehackernews_logo?e=2147483647&v=beta&t=n2ylZCVwlfF6MF0HqfxI1HC-XaG-m712wqPEvsxSM2w" alt="The Hacker News logo" />
+                    </span>
+                    <a href="https://thehackernews.com/" target="_blank" class="skills__name">The Hacker News</a>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <span class="circle">
+                        <img src="data:image/png;base64,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" alt="L'usine Digitale logo" />
+                    </span>
+                    <a href="https://www.usine-digitale.fr/" target="_blank" class="skills__name">L'usine Digitale</a>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <span class="circle">
+                        <img src="https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg" alt="Security Week logo" />
+                    </span>
+                    <a href="https://www.securityweek.com/" target="_blank" class="skills__name">Security Week</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="contact section" id="contact">
+    <h2 class="section__title title-center" data-title="Restons connecte">Contactez moi</h2>
+
+    <div class="contact__container container grid">
+        <div class="contact__details">
+            <div class="contact__item">
+                <i class="fa-solid fa-phone contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Appelez moi</h3>
+                    <span class="contact__data">+33 7 69 05 08 38</span>
+                </div>
+            </div>
+
+            <div class="contact__item">
+                <i class="fa-solid fa-envelope contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Envoyez moi un mail</h3>
+                    <span class="contact__data">flavien-nouet@outlook.fr</span>
+                </div>
+            </div>
+
+            <div class="contact__item">
+                <i class="fa-solid fa-location-dot contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Rencontrez moi</h3>
+                    <span class="contact__data">77400, Lagny sur Marne</span>
+                </div>
+            </div>
+        </div>
+
+        <form action="send_email.php" method="POST" class="contact__form" onsubmit="openOutlook(event)">
+            <div class="form__group">
+                <div class="form__input">
+                    <input type="text" name="name" placeholder="Nom" class="input__control" required/>
+                </div>
+
+                <div class="form__input">
+                    <input type="email" name="email" placeholder="Email" class="input__control" required/>
+                </div>
+            </div>
+
+            <div class="form__input">
+                <input type="text" name="subject" placeholder="Sujet" class="input__control" required/>
+            </div>
+
+            <div class="form__input">
+                <textarea name="message" placeholder="Message" cols="30" rows="10" class="input__control textarea" required></textarea>
+            </div>
+
+            <button class="btn contact__btn" type="submit">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<script>
+function openOutlook(event) {
+    event.preventDefault(); // Empêche l'envoi normal du formulaire
+    const form = event.target; // Récupère le formulaire
+    const formData = new FormData(form); // Crée un objet FormData avec les données du formulaire
+
+    // Adresse email à laquelle envoyer le message
+    const recipientEmail = "flavien-nouet@outlook.fr";
+    const subject = formData.get('subject'); // Récupère le sujet du formulaire
+    const message = `Nom: ${formData.get('name')}\nEmail: ${formData.get('email')}\n\nMessage:\n${formData.get('message')}`; // Formate le message
+
+    // Crée l'URL mailto
+    let mailtoUrl = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+    // Ouvre Outlook dans une nouvelle fenêtre 
+    window.open(mailtoUrl, '_blank');
+}
+</script>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <p class="footer__copyright">&copy;NOUET Flavien. All Rights Reserved. 2023</p>
+                <div class="footer__social-links">
+                    <a href="https://x.com/?lang=fr" class="footer__social-link">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" class="footer__social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/flavien-nouet/" class="footer__social-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
