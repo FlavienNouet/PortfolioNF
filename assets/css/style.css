@@ -743,31 +743,34 @@ input[type='checkbox']{
 
 
 
+/* Section globale */
 .skills {
     background-color: var(--container-color);
     padding: 2rem 0;
 }
 
 .skills__wrapper {
-    overflow: hidden; /* Cache les compétences qui sortent de l'écran */
+    overflow: hidden; /* Cache les éléments qui débordent */
     position: relative;
-    width: 100%; /* Assurez-vous que le wrapper a une largeur définie */
+    width: 100%;
 }
 
 .skills__container {
-    display: flex; /* Utilisation de flexbox pour un alignement horizontal */
-    gap: 20px; /* Espace entre les items */
-    padding: 10px;
-    animation: slide-left 25s linear infinite; /* Animation continue vers la gauche */
+    display: flex;
+    gap: 30px; /* Augmente l'espace entre les items */
+    animation: slide-left 25s linear infinite; /* Animation fluide */
+    width: max-content; /* S'assure que tous les items sont visibles */
 }
 
 .skills__item {
-    min-width: calc(33.33% - 20px); /* 3 éléments visibles à la fois */
-    background-color: var(--container-color);
-    padding: 1.5rem;
-    border-radius: .5rem;
-    box-shadow: 0 4px 6px rgba(242, 241, 241, 0.1);
-    flex-shrink: 0; /* Empêche les items de rétrécir */
+    min-width: 300px; /* Rend les boîtes plus longues */
+    background-color: #0b0d0e; /* Fond noir */
+    color: #fff; /* Texte blanc pour le contraste */
+    padding: 1.5rem; /* Ajoute un peu de remplissage */
+    border-radius: 0.7rem;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
+    text-align: center;
+    flex-shrink: 0; /* Empêche les items de se rétrécir */
 }
 
 .skills__titles {
@@ -779,19 +782,26 @@ input[type='checkbox']{
 .skills__name {
     font-size: var(--larger-font-size);
     font-weight: var(--weight-500);
-}
-
-.skills__no {
-    color: var(--title-color);
-    font-size: var(--large-font-size);
-    font-weight: var(--weight-600);
+    color: #fff; /* Texte blanc */
 }
 
 .skills__description {
     margin-block: 1rem 1.8rem;
     font-size: var(--normal-font-size);
+    color: #fff; /* Texte blanc */
 }
 
+/* Animation pour le défilement */
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Défile sur la moitié de la largeur totale */
+    }
+}
+
+/* Styles des cercles et barres */
 .skills__bar {
     background-color: var(--border-color);
     height: 2px;
@@ -818,15 +828,9 @@ input[type='checkbox']{
     top: -0.75rem;
 }
 
-/* Animation pour faire glisser les compétences vers la gauche */
-@keyframes slide-left {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
+
+
+
 
 
 
