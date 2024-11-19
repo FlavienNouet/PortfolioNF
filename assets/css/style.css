@@ -758,7 +758,7 @@ input[type='checkbox']{
 .skills__container {
     display: flex;
     gap: 30px; /* Augmente l'espace entre les items */
-    animation: slide-left 25s linear infinite; /* Animation fluide */
+    animation: slide-left 30s linear infinite; /* Animation fluide */
     width: max-content; /* S'assure que tous les items sont visibles */
 }
 
