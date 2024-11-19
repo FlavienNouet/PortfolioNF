@@ -771,7 +771,7 @@ input[type='checkbox']{
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Ombre plus marquée */
     text-align: center;
     flex-shrink: 0; /* Empêche les items de se rétrécir */
-    border: 2px solid var(--first-color); /* Bordure blanche de 2px */
+    border: 1px solid var(--first-color); /* Bordure blanche de 2px */
 }
 
 
