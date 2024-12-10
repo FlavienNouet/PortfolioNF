@@ -992,6 +992,12 @@ input[type='checkbox']{
     align-items: center;
 }
 
+.footer__copyright{
+    color: var(--text-color);
+    font-size: var(--large-font-size);
+}
+
+
 .footer__social-links{
     display: flex;
     column-gap: 1.25rem;
