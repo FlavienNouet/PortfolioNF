@@ -721,6 +721,10 @@ input[type='checkbox']{
     border-color: var(--border-color);
 }
 
+.services__item a{
+    color: var(--body-color)
+}
+
 .services__icon{
     columns: var(--first-color);
     font-size: 3rem;
@@ -729,6 +733,12 @@ input[type='checkbox']{
 .services__title{
     font-size: var(--h3-font-size);
     margin-block: 1.5rem 1rem;
+}
+
+.services__title a {
+    color: var(--first-color); /* La couleur initiale du lien */
+    text-decoration: none; /* Pour supprimer le soulignement par défaut, si nécessaire */
+    transition: color 0.3s ease; /* Pour une transition fluide */
 }
 
 .services__no{
@@ -835,7 +845,9 @@ input[type='checkbox']{
 
 
 
-
+.section__title a {
+    color: var(--first-color);
+}
 
 
 
@@ -989,3 +1001,5 @@ input[type='checkbox']{
     color: var(--text-color);
     font-size: var(--large-font-size);
 }
+
+
