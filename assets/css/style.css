@@ -681,7 +681,6 @@ input[type='checkbox']{
     line-height: 1.6;
 }
 
-
 .services__buttons {
     display: flex;
     justify-content: center; /* Centre les boutons */
