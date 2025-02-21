@@ -688,6 +688,20 @@ input[type='checkbox']{
     gap: 1rem; /* Espace entre les boutons */
 }
 
+.services__btn {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    background-color: var(--second-color); /* Background color of the button */
+    color: var(--second-color); /* Text color of the button */
+    padding: 0.75rem 1.5rem; /* Adjust padding as needed */
+    border-radius: .5rem; /* Rounded corners */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+
 .btn {
     padding: 0.75rem 1.5rem; /* Espacement interne */
     background-color: var(--first-color); /* Couleur de fond */
@@ -707,6 +721,7 @@ input[type='checkbox']{
 }
 
 .services__item{
+    position: relative;
     background-color: var(--container-color);
     border: 1px solid var(--container-color);
     padding: 2.5rem 1.8rem;
